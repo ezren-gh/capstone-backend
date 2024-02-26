@@ -1,6 +1,6 @@
-# Repository Description
+# GLIP/DesCo Server Backend
 
-This GitHub repository serves the following models using FastAPI:
+This project serves the following models using FastAPI:
 
 ## Models
 
