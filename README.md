@@ -11,7 +11,7 @@ This project serves the following models using FastAPI:
 
 The server can be built and served using docker (gpu required), follow these steps:
 
-1. Clone the repository to your local machine.
+1. Clone the repository and download model weights to your local machine.
 2. Build the application with `docker build -t <repository_name> .`
 3. Run the FastAPI server and forward ports using `docker run --rm --gpu all -p 8080:8080`
 4. Access the models through the provided API endpoints.
