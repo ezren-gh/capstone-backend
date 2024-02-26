@@ -36,4 +36,4 @@ requests
 numpy
 fastapi
 uvicorn
-gradio
+python-multipart

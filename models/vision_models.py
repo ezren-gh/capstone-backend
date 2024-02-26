@@ -12,11 +12,11 @@ from copy import deepcopy
 
 params = {
     "skip_name": False,
-    "override_color": (0, 90, 190),
-    "text_size": 1.0,
-    "text_pixel": 3,
+    "override_color": (175, 225, 175),
+    "text_size": 0.8,
+    "text_pixel": 2,
     "box_alpha": 1.0,
-    "box_pixel": 5,
+    "box_pixel": 3,
     "text_offset_original": 8,
 }
 

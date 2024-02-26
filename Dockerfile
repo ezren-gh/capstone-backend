@@ -20,12 +20,7 @@ USER user
 ENV HOME=/home/user \
     PATH=/home/user/.local/bin:$PATH \
     PYTHONPATH=$HOME/app \
-    PYTHONUNBUFFERED=1 \
-    GRADIO_ALLOW_FLAGGING=never \
-    GRADIO_NUM_PORTS=1 \
-    GRADIO_SERVER_NAME=0.0.0.0 \
-    GRADIO_THEME=huggingface \
-    SYSTEM=spaces
+    PYTHONUNBUFFERED=1
 
 WORKDIR $HOME/app
 
